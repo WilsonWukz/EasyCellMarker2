@@ -6,12 +6,10 @@ I am very grateful for their selfless help in bioinformatics research.
 At the same time, since the data in this package is obtained from the local computer, if the official CellMarker2.0 updates the data, there may be some errors in the data in this package. 
 The date of obtaining the data from CellMarker2.0 : **October 11, 2024**.
 
-Hope you enjoy using it :)
-
 # Installation
 EasyCellMarker2 R package can be easily installed from Github using devtools. Please make sure you have installed 'readxl', 'dplyr' and 'ggplot2' packages.
 ```
-<devtools::install_github("WilsonWukz/EasyCellMarker2")
+devtools::install_github("WilsonWukz/EasyCellMarker2")
 ```
 
 # Usage
@@ -29,3 +27,5 @@ For example, we want to check the cell markers of **Fibroblast** in **Brain** ti
 get_marker(spc = "Human", tsuClass = "Brain", tsuType = "Brain", cellname = "Fibroblast")
 ```
 ![image](https://github.com/user-attachments/assets/2f1d8563-b429-4756-9f81-0ed6fdeb36d7)
+
+Hope you enjoy using it :)
