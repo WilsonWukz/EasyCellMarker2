@@ -4,13 +4,15 @@ library(ggplot2)
 
 
 get_marker <- function(spc, tsuClass, tsuType, cellname, file_path = "Cell_marker_Human.xlsx", plot = TRUE) {
-
+  library(readxl)
+  library(dplyr)
+  library(ggplot2)
 
   plot <- as.logical(plot)
 
 
   if (is.null(file_path)) {
-    file_path <- system.file("extdata", "Cell_marker_Human.xlsx", package = "EasyCellMarker")
+    file_path <- system.file("extdata", "Cell_marker_Human.xlsx", package = "EasyCellMarker2")
   }
 
   # Read Excel
