@@ -3,7 +3,7 @@ library(dplyr)
 library(ggplot2)
 
 
-get_marker <- function(spc, tsuClass, tsuType, cellname, file_path = "Cell_marker_Human.xlsx", plot = TRUE) {
+get_marker <- function(spc, tsuClass, tsuType, cellname, file_path = NULL, plot = TRUE) {
   library(readxl)
   library(dplyr)
   library(ggplot2)
