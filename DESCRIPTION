@@ -1,0 +1,20 @@
+Package: EasyCellMarker2
+Type: Package
+Title: Get Cell Markers from CellMarker 2.0 Database
+Version: 0.1.0
+Author: Wilson Ng Fosiu
+Maintainer: Wilson Ng Fosiu <wilsonkwu@gmail.com>
+Description: The EasyCellMarker2 package allows users to easily retrieve 
+    cell marker genes from the CellMarker 2.0 database based on specified 
+    filters such as species, tissue class, tissue type, and cell name.
+    It provides the corresponding markers along with their source PMID 
+    for further analysis. The package also supports visualization of the 
+    marker frequency for selected cell types.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    readxl,
+    dplyr,
+    ggplot2,
+    usethis
