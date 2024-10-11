@@ -9,6 +9,7 @@ The date of obtaining the data from CellMarker2.0 : **October 11, 2024**.
 # Installation
 EasyCellMarker2 R package can be easily installed from Github using devtools. Please make sure you have installed 'readxl', 'dplyr' and 'ggplot2' packages.
 ```
+library(devtools)
 devtools::install_github("WilsonWukz/EasyCellMarker2")
 ```
 
