@@ -10,19 +10,18 @@ Hope you enjoy using it :)
 
 # Installation
 EasyCellMarker2 R package can be easily installed from Github using devtools. Please make sure you have installed 'readxl', 'dplyr' and 'ggplot2' packages.
-@ Override
-devtools::install_github("WilsonWukz/EasyCellMarker2")
+'<devtools::install_github("WilsonWukz/EasyCellMarker2")'>
 
 # Usage
 First, read the required R package, otherwise you will not be able to successfully use the built-in functions of the package.
-@Overrride
-library(readxl)
+'<library(readxl)
 library(dplyr)
 library(ggplot2)
 library(EasyCellMarker2)
+>'
 
 Then we can use the 'get_marker(spc =, tsuClass =, tsuType =, cellname =)' function.
 For example, we want to check the cell markers of **Fibroblast** in **Brain** tissue type in **Brain** tissue class, **human** species.
 @Override
-get_marker(spc = "Human", tsuClass = "Brain", tsuType = "Brain", cellname = "Fibroblast")
+'<get_marker(spc = "Human", tsuClass = "Brain", tsuType = "Brain", cellname = "Fibroblast")>'
 ![image](https://github.com/user-attachments/assets/2f1d8563-b429-4756-9f81-0ed6fdeb36d7)
