@@ -28,6 +28,7 @@ For example, we want to check the cell markers of **Fibroblast** in **Brain** ti
 get_marker(spc = "Human", tsuClass = "Brain", tsuType = "Brain", cellname = "Fibroblast")
 ```
 ![image](https://github.com/user-attachments/assets/2f1d8563-b429-4756-9f81-0ed6fdeb36d7)
-![image](https://github.com/user-attachments/assets/1feef46a-40ba-496f-a339-f67bd6a75e94)
+![image](https://github.com/user-attachments/assets/2444c611-23ff-4074-9db3-e5c0a2b0fd2f)
+
 
 Hope you enjoy using it :)
