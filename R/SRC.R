@@ -7,7 +7,7 @@ get_marker <- function(cellname, spc = NULL, tsuClass = NULL, tsuType = NULL, fi
   plot <- as.logical(plot)
   
   if (is.null(file_path)) {
-    file_path <- system.file("extdata", "Cell_marker_Human.xlsx", package = "EasyCellMarker2")
+    file_path <- system.file("extdata", "Cell_marker_All.xlsx", package = "EasyCellMarker2")
   }
   
   cell_marker_data <- read_excel(file_path)
